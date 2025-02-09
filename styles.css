@@ -1,5 +1,5 @@
 /* Estilos generales */
-/* 🔹 Fuente principal para todo el sitio */
+/* Fuente principal para todo el sitio */
 body {
     font-family: 'Poppins', sans-serif !important;
     background-color: #ffffff;
@@ -8,10 +8,10 @@ body {
     padding: 0;
 }
 
-/* 🔹 Titulares elegantes */
+/* Titulares elegantes */
 h1 {
     font-family: 'Playfair Display', serif !important;
-    font-size: 2.8rem; /* Un poco más pequeño para que no domine demasiado */
+    font-size: 2.8rem; 
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -22,7 +22,7 @@ h2, h3 {
     font-weight: 600;
 }
 
-/* 🔹 Párrafos y textos secundarios */
+/* Párrafos y textos secundarios */
 p {
     font-family: 'Poppins', sans-serif !important;
     font-size: 1rem;
@@ -30,15 +30,15 @@ p {
     line-height: 1.5;
 }
 
-/* 🔹 Estilo de los enlaces del menú */
+/* Estilo de los enlaces del menú */
 .nav-tabs {
     border-bottom: 1px solid #ddd;
     justify-content: center;
 }
 
-/* 🔹 Pestañas más pequeñas */
+/* Pestañas más pequeñas */
 .nav-tabs .nav-link {
-    font-size: 0.9rem; /* ✅ Reduce el tamaño del texto */
+    font-size: 0.9rem; 
     font-weight: 500;
     color: #333;
     text-transform: uppercase;
@@ -46,7 +46,7 @@ p {
     border-radius: 4px; 
 }
 
-/* 🔹 Botón activo (negro) */
+/* Botón activo (negro) */
 .nav-tabs .nav-link.active {
     background-color: #000;
     color: white;
@@ -56,14 +56,14 @@ p {
 }
 
 
-/* 🔹 Botón de "Añadir Sección" */
+/* Botón de "Añadir Sección" */
 .btn-success {
     font-size: 0.9rem;
     padding: 8px 16px; 
     border-radius: 4px;
 }
 
-/* 🔹 Botón general */
+/* Botón general */
 button {
     font-family: 'Poppins', sans-serif !important;
     font-size: 1rem;
@@ -196,7 +196,7 @@ button:hover {
     border: 1px solid #ddd;
 }
 
-/* 🔹 Título alineado a la izquierda */
+/* Título alineado a la izquierda */
 .closet-section h3 {
     font-size: 1rem;
     font-weight: 600;
@@ -205,7 +205,7 @@ button:hover {
     padding-left: 10px;
 }
 
-/* 🔹 Botón "❌" en la esquina superior derecha */
+/* Botón "x" en la esquina superior derecha */
 .remove-btn {
     position: absolute;
     top: 10px;
@@ -223,7 +223,7 @@ button:hover {
     transform: scale(1.2);
 }
 
-/* 🔹 Estilos individuales de cada armario */
+/* Estilos individuales de cada armario */
 .user-closet {
     text-align: center;
     background: #f8f8f8;
@@ -243,7 +243,7 @@ button:hover {
     transform: scale(1.05);
 }
 
-/* 🔹 Botón "+" para elegir archivos */
+/* Botón "+" para elegir archivos */
 .upload-btn {
     font-size: 0.8rem; 
     font-weight: 500;
@@ -261,7 +261,7 @@ button:hover {
 }
 
 
-/* 🔹 Contenedor de imágenes */
+/* Contenedor de imágenes */
 .image-container {
     display: flex;
     flex-wrap: nowrap;
@@ -270,13 +270,13 @@ button:hover {
     padding: 10px;
 }
 
-/* 🔹 Contenedor de cada imagen */
+/* Contenedor de cada imagen */
 .image-item {
     position: relative;
     display: inline-block;
 }
 
-/* 🔹 Imagen subida */
+/* Imagen subida */
 .uploaded-image {
     width: 160px;
     height: auto;
@@ -285,7 +285,7 @@ button:hover {
     transition: transform 0.3s ease-in-out;
 }
 
-/* 🔹 Botón "❌" para eliminar imágenes */
+/* Botón "x" para eliminar imágenes */
 .remove-image-btn {
     position: absolute;
     top: 5px;
@@ -303,16 +303,16 @@ button:hover {
     transform: scale(1.2);
 }
 
-/* 🔹 Galería de Armarios Públicos en formato de cuadrícula */
+/* Galería de Armarios Públicos en formato de cuadrícula */
 .public-closet-gallery {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* ✅ 3 columnas */
-    gap: 20px; /* ✅ Espaciado entre elementos */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; 
     justify-content: center;
     margin-top: 20px;
 }
 
-/* 🔹 Estilos individuales de cada armario */
+/* Estilos individuales de cada armario */
 .user-closet {
     text-align: center;
     background: #f8f8f8;
@@ -335,12 +335,12 @@ button:hover {
     font-weight: 600;
 }
 
-/* 🔹 Animación al pasar el mouse */
+/* Animación al pasar el mouse */
 .user-closet:hover {
     transform: scale(1.05);
 }
 
-/* 🔹 Campo de Búsqueda Estilizado */
+/* Campo de Búsqueda Estilizado */
 #searchUsers {
     border-radius: 5px;
     padding: 10px;
@@ -352,7 +352,7 @@ button:hover {
     display: block;
 }
 
-/* 🔹 Botón de "Explorar Más Armarios" */
+/* Botón de "Explorar Más Armarios" */
 .btn-dark {
     font-size: 1rem;
     padding: 10px 20px;
@@ -367,12 +367,12 @@ button:hover {
 /* 🔹 Responsividad para pantallas más pequeñas */
 @media (max-width: 992px) {
     .public-closet-gallery {
-        grid-template-columns: repeat(2, 1fr); /* ✅ 2 columnas en tabletas */
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media (max-width: 600px) {
     .public-closet-gallery {
-        grid-template-columns: repeat(1, 1fr); /* ✅ 1 columna en móviles */
+        grid-template-columns: repeat(1, 1fr);
     }
 }
